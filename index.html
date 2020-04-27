@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Drive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+	<div>
+    <img src="" id="image"/>
+    <div><input type="button" value="Try a chance" id="button"/></div>
+</div>
+<script>
+    var imgs=[
+            'https://drive.google.com/uc?id=1CdWweVfTRBRXuzWuGUedjnX64F0ZtaIn',
+            'https://drive.google.com/uc?id=1bHJgnsFztX8HyiOD3X_afBdZ7F-gtGvG',
+            'https://drive.google.com/uc?id=1vS5qvNnA74otlC2OSc-X6qTgbfy1OzYb',
+            'https://drive.google.com/uc?id=10jtZpXGL3BNt5Zonc1i3FkTJh4a1OQ0k',
+            'https://drive.google.com/uc?id=1wUgobl96rEAAlYkyuadNtWovbgGNjbHL',
+            'https://drive.google.com/uc?id=1ClyN3ChrMlsR7YaGuw4UOzT9W6K5zDH5',
+            'https://drive.google.com/uc?id=1Ph7H087bEdXkfO6ZXc6XJUIFQvB7SlFR',
+            'https://drive.google.com/uc?id=1tjgr4PYWG9DnSJzhLgrpYQqjJ_T09fmm',
+            'https://drive.google.com/uc?id=11Ejt3MzXNccyPHkxCfew9P1acUCVR4YB',
+            'https://drive.google.com/uc?id=1BPRF6a5-1zalT-M7kKUGlvKvyUDNwcy3',
+            'https://drive.google.com/uc?id=1AfR8pzdptDZF3aZ2iz_obZ5G0-dJNlgj',
+            'https://drive.google.com/uc?id=13B_2lbuwoSyxB-sRrrIlrERw2wwYsZTU',
+            'https://drive.google.com/uc?id=1Z7N6A-dV3YBH3RWR-1JDIb_pdXG4vVbb',
+            'https://drive.google.com/uc?id=1tajCrwu7YxZLDFg-JDB4PjpolvDpoPql',
+            'https://drive.google.com/uc?id=1kDOuDZ9eBiRF8HgcCqWXq-A7Z9O76IPA',
+            'https://drive.google.com/uc?id=1w3bcCeyT7hHQzHXQmisbOMgLfPyt4Uex',
+            'https://drive.google.com/uc?id=1FEmRmLFbGOCn6xfhohvCkixlUv2obemG',
+            'https://drive.google.com/uc?id=1aNb2xhG3a3yxyN0qUn908xIqiOfr5sGO',
+            'https://drive.google.com/uc?id=1OMjOv8HgUfQBv-BQ_TWQ6sg0o_5XBUPe',
+            'https://drive.google.com/uc?id=1u7Aafe0R3y8SKfVhqQt24n8cA4vYyo95',
+            'https://drive.google.com/uc?id=1woCV7cuIU4MK3xsVvKSVCEKBgV7x6tFe',
+            'https://drive.google.com/uc?id=1-KSVrBQd_od9K6mHFjd-x1FzXGQFmjwM',
+            'https://drive.google.com/uc?id=1U7sYMqZWyBghkw0ZQjsJiviLdiet1wkT',
+            'https://drive.google.com/uc?id=1opYoZhqsR6e58Wt1YYizXYoomfxtrR7q',
+            'https://drive.google.com/uc?id=1zVSx08oXOGAG1FWhviQW9it15zZYJ4k7',
+            'https://drive.google.com/uc?id=101ShYItaWGpLVMi3t-P6Gyc-S5M6wznX',
+            'https://drive.google.com/uc?id=15oQ6wszC5nmIfrQ8ULKgoAy-3YAY2T8O',
+            'https://drive.google.com/uc?id=1bnRfTzNWPTbhqc5AmydyUbMcuhGhxkD3',
+            'https://drive.google.com/uc?id=1-A1zthQf7JpBZMXbRDGNiiIi3U7FpBCr',
+            'https://drive.google.com/uc?id=1tyfO_qIsI30QzKT7Jixo0X7mOZauWu_U',
+            'https://drive.google.com/uc?id=17-g7byN378he_kyrIEXn-dxAwwRj4pUU',
+            'https://drive.google.com/uc?id=10na-xVJ413dAFeJn99pn_F8-Y_zrYcM9',
+            'https://drive.google.com/uc?id=1ZuuXMvKHZrFFSMIiKu2d0B4bg2dqK7hL',
+            'https://drive.google.com/uc?id=1qWeK-qESOefN921bTFfS7zZyvCIFLOIp',
+            'https://drive.google.com/uc?id=1kG5wzFnTH5_6XFcbiFAvTHUQPxIek6km',
+            'https://drive.google.com/uc?id=1eVhXzSSSgFPiK-kaXlC3XDvJ6D05vECo',
+        ],
+        image=document.getElementById('image'),
+        button=document.getElementById('button');       
+    button.onclick=function(){
+        image.src=imgs[Math.floor(Math.random()*imgs.length)];
+    }
+</script>
+</html>
